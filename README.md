@@ -18,6 +18,7 @@ This project involves predicting monthly profit for a Superstore dataset using a
 - **MSE & MAE**: These error metrics indicate a relatively high level of prediction error. A lower MSE and MAE would reflect better model accuracy.
 - **R²**: The R² score of 0.53 suggests the model explains about 53% of the variance in the data. This indicates moderate performance, but there's room for improvement.
 
+![Residuals Plot](Residuals.png) 
 ### Reasons for Poor Performance
 1. **Data Preprocessing**: While differencing helped in making the data stationary, it might have resulted in loss of important information or reduced the model's ability to capture seasonal patterns effectively.
 2. **Model Choice**: Linear regression is a basic approach and may not capture complex relationships in time series data. Time series models like ARIMA or machine learning methods like XGBoost could perform better for forecasting.
