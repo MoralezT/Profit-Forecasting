@@ -65,15 +65,18 @@ This project involves predicting monthly profit for a Superstore dataset using a
 
 # Outputs 
 
-# Data prep
-RangeIndex: 9994 entries, 0 to 9993
-Data columns (total 2 columns):
- #   Column      Non-Null Count  Dtype
+## Data prep
+RangeIndex: 
+9994 entries, 0 to 9993
+Data columns 
+(total 2 columns):
+
+ ##   Column      Non-Null Count  Dtype
 ---  ------      --------------  -----
  0   Order Date  9994 non-null   datetime64[ns]
  1   Profit      9994 non-null   float64
 
-# Data split 
+## Data split 
 Train data shape (23, 13)
 Test data shape (12, 13)
 Train data shape (23, 13)
@@ -83,14 +86,14 @@ y_train_shape (23,)
 X_test_shape (12, 12)
 y_test_shape (12,)
 
-## actual profit output
+## Actual profit output
 [7140.439099999999, 1613.8719999999996, 14751.891500000002, 933.2899999999988, 6342.582799999997, 8223.335699999996, 6952.6212, 9040.955699999999, 10991.555600000005, 9275.2755, 9690.103699999996, 8483.346799999994]
 
 ## Predictions output
 [-0.78931581 -0.51448577  0.63771063 -0.78573442  0.24758865  0.36016367
  -0.62724351 -0.14233613 -0.08271183 -0.06052844  0.52067661  0.03014894]
 
-## Predictd test set output 
+## Predicted test set output 
 [[ -9481.71247634  13873.9018     -12231.735        6914.4849
     7266.5883      -2370.8086       -317.5002      -3911.7683
     5684.3315       -634.1531      -1392.6115       2179.7562
@@ -140,7 +143,7 @@ y_test_shape (12,)
   -13818.6015      13138.0195      -5526.5671     -10744.8702
    13873.9018    ]]
 
-   # New list to store predictions
+## New list to store predictions
    Order Date  Linear Prediction
 0  2017-01-01       -2341.273376
 1  2017-02-01       -4280.533940
