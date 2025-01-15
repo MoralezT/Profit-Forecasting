@@ -159,6 +159,6 @@ y_test_shape (12,)
 11 2017-12-01        9697.958893
 
 ## How to run code
-# 1. Run as uploaded for the functions
-# 2. Uncomment print/plot code blocks to view output results for each relevant section
-# 3. Find all visualization outputs in repository
+## 1. Run as uploaded for the functions
+## 2. Uncomment print/plot code blocks to view output results for each relevant section
+## 3. Find all visualization outputs in repository
